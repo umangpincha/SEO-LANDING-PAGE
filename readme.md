@@ -9,4 +9,4 @@
 - Learned about positions , flexbox.
 - It took me around 2 hours to complete this project.
 
-### Project Link: [My Website]()
+### Project Link: [My Website](https://seo-landing-page-temp.netlify.app/)
