@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  overflow: 0px;
+  font-family: "Poppins";
+}
+
+.navbar-container {
+  /* border: 3px solid yellow; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.list-item {
+  /* border: 3px solid red; */
+  display: inline;
+  margin-right: 16px;
+}
+
+.grow-list {
+  /* border: 3px solid blue; */
+  margin-left: -400px;
+  margin-top: 13px;
+}
+
+div .nav-button {
+  margin-top: 10px;
+  margin-right: 92px;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #383cc1;
+  color: #fff;
+  width: 108px;
+  border: none;
+}
+
+.navbar-container div img {
+  /* border: 3px solid blue; */
+  width: 50%;
+  margin-left: 50px;
+}
+
+.banner-container {
+  /* border: 8px solid blue; */
+  margin-top: 100px;
+  margin-left: 0px;
+  width: 100vw;
+}
+.description {
+  /* border: 8px solid yellow; */
+  width: 30%;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.heading-text {
+  /* border: 8px solid red; */
+  display: inline-block;
+  /* position: fixed; */
+  left: 0;
+  font: 80px;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 15%;
+  font-family: "Poppins";
+  color: #120e43;
+  font-weight: bold;
+  height: 100px;
+  font-size: 30px;
+}
+.banner-container button{
+  margin-left: 15px;
+  margin-top: 50px;
+  width: 140px;
+  border-radius: 8px;
+  border: none;
+  margin-left: 50px;
+}
+.heading-text span {
+  color: #383cc1;
+}
+
+.banner-container div img {
+  /* border: 8px solid #4d4d4d; */
+  width: 641px;
+  height: 338px;
+  margin-left: 45%;
+  margin-top: -50%;
+}
+.description{
+  margin-left: 50px;
+}
