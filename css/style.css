@@ -14,14 +14,19 @@
 
 .list-item {
   /* border: 3px solid red; */
-  display: inline;
+  display: inline-block;
   margin-right: 16px;
 }
 
 .grow-list {
   /* border: 3px solid blue; */
-  margin-left: -400px;
+  margin-left: -50px;
   margin-top: 13px;
+}
+
+.button-group .nav-button{
+  margin-top: 10px;
+  margin-right: 0px;
 }
 
 div .nav-button {
@@ -90,4 +95,31 @@ div .nav-button {
 }
 .description{
   margin-left: 50px;
+}
+
+
+@media screen and (max-width:641px) {
+  html{
+    font-size: 10px;
+  }
+  .navbar-container{
+    text-align:  justify;
+  }
+  .grow-list{
+    /* border: 2px solid red ; */
+    margin-left: 20px;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .my-img img{
+    width: 10%;
+  }
+ 
+  .my-log img{
+    margin-left: 50px;
+  }
+
+  .button-group button{
+    margin-left: 60px;
+  }
 }
